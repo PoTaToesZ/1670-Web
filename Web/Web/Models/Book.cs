@@ -13,7 +13,7 @@ namespace Web.Models
         
         [Required]
         [Display(Name = "Description")]
-        [StringLength(100, ErrorMessage = "Description must between 15 to 100 characters ", MinimumLength = 15)]
+        [StringLength(3000, ErrorMessage = "Description must between 15 to 3000 characters ", MinimumLength = 15)]
         public string Description { get; set; }
         
         [Required]
